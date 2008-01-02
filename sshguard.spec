@@ -10,6 +10,7 @@ Url:		http://sshguard.sourceforge.net
 Source0:	http://downloads.sourceforge.net/sshguard/%{name}-%{version}%{prel}.tar.bz2
 Requires:	iptables
 Requires:	sshd
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Sshguard protects networked hosts from brute force attacks 
