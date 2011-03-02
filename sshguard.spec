@@ -1,6 +1,6 @@
 Summary:	Protect hosts from brute force attacks against ssh
 Name:		sshguard
-Version:	1.4
+Version:	1.5
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Networking/Remote access
