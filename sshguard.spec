@@ -4,7 +4,7 @@ Version:	1.5
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Networking/Remote access
-Url:		http://sshguard.sourceforge.net
+Url:		https://sshguard.sourceforge.net
 Source0:	http://downloads.sourceforge.net/sshguard/%{name}-%{version}.tar.bz2
 Requires:	iptables
 Requires:	sshd
