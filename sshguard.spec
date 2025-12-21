@@ -10,6 +10,11 @@ Requires:	iptables
 Requires:	sshd
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Sshguard protects networked hosts from brute force attacks 
 against ssh servers. It detects such attacks and blocks the 
